@@ -1,0 +1,32 @@
+/* Success page layout */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bde17a; /* Improved color contrast */
+}
+
+/* Header text styles */
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff; /* Improved color contrast */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 414px) {
+    .header_text {
+        font-size: clamp(28px, 8vw, 50px); /* Fluid typography */
+    }
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
